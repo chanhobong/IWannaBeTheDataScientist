@@ -26,3 +26,21 @@ Query the list of CITY **names ending with vowels** (a, e, i, o, u) from STATION
 -  **'[jz]'**: Gives all the names containing ‘j’ or ‘z’
 -  **'[^jz]**': Gives all the names not containing ‘j’ or ‘z’
 -  **'^[ns]'**:Gives all the names starting with ‘n’ or ‘s’ 
+
+
+## Advanced Select
+### The PADS
+Query an alphabetically ordered list of all names in OCCUPATIONS, immediately followed by the first letter of each profession as a parenthetical (i.e.: enclosed in parentheses). For example: AnActorName(A), ADoctorName(D), AProfessorName(P), and ASingerName(S).  
+
+Query the number of ocurrences of each occupation in OCCUPATIONS. Sort the occurrences in ascending order, and output them in the following format:
+There are a total of [occupation_count] [occupation]s.  
+
+where [occupation_count] is the number of occurrences of an occupation in OCCUPATIONS and [occupation] is the lowercase occupation name. If more than one Occupation has the same [occupation_count], they should be ordered alphabetically.  
+
+<img width="737" alt="Screenshot 2023-10-06 at 13 15 29" src="https://github.com/chanhobong/IWannaBeTheDataScientist/assets/118742537/f07a4a8e-823a-44e6-9a66-ea94f16a8e22">
+
+- **CONCAT**: adds two or more strings together
+- **LEFT**: extracts a number of characters from a string (starting from left), of course you can use **RIGHT** as same way
+
+This problems is quit tricky, when you see the result, 'There are a total of _n_ _occupation_ uisng lower not capital
+
