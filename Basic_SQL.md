@@ -42,5 +42,5 @@ where [occupation_count] is the number of occurrences of an occupation in OCCUPA
 - **CONCAT**: adds two or more strings together
 - **LEFT**: extracts a number of characters from a string (starting from left), of course you can use **RIGHT** as same way
 
-This problems is quit tricky, when you see the result, 'There are a total of _n_ _occupation_ uisng lower not capital
+This problems is quit tricky, when you see the result, 'There are a total of **_n_ _occupation_** uisng **lower not capital**
 
