@@ -12,3 +12,17 @@ The STATION table is described as follows:
 - **as**: for using **order by**
 - **ASC,DESC**: order by ascending, descending
 - **LIMIT**: choose the first one
+
+### Weather Observation Station 7
+Query the list of CITY **names ending with vowels** (a, e, i, o, u) from STATION. Your result **cannot contain duplicates**.  
+
+<img width="517" alt="Screenshot 2023-10-06 at 11 14 12" src="https://github.com/chanhobong/SQL/assets/118742537/350f3722-752d-4fb3-86d7-ca6e3b957cdf">
+
+- **distinct**: avoid duplicates
+- **regexp**:
+-  **'^sa'**: Gives all the names starting with ‘sa’
+-  **'on$'**: Gives all the names ending with ‘on’
+-  **'be|ae'**: Gives all the names containing ‘be’ or ‘ae’
+-  **'[jz]'**: Gives all the names containing ‘j’ or ‘z’
+-  **'[^jz]**': Gives all the names not containing ‘j’ or ‘z’
+-  **'^[ns]'**:Gives all the names starting with ‘n’ or ‘s’ 
