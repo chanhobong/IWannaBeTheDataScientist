@@ -71,5 +71,6 @@ GROUP BY: to eliminate the NULL and matching the rank to make a one row.
 Note: Print NULL when there are no more names corresponding to an occupation.
 - **ROW_NUMBER()**: partitions somewhere you want and order it
 - E.G: SELECT __, ROW_NUMBER() OVER (PARTITION BY ___ ORDER BY ___ ASC)
+- https://velog.io/@hyeh/CASE-%EB%AC%B8-PIVOT#pivot
 
 
